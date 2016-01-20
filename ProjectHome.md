@@ -1,0 +1,3 @@
+Parser for extracting fields from a single line of an Apache access.log (should work for other servers conforming to the Common Log Format).
+
+Create the parser with the log format from your server .conf file, parse lines to get dict corresponding to fields defined in the log format.
